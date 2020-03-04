@@ -1,0 +1,85 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url("beach1.jpg");
+    background-size: cover;
+    background-position: center:;
+    height: 100vh;
+}
+
+.loginbox{
+	width: 320px;
+	height: 500px;
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	top:20%;
+	left: 40%;
+	transform: translate(-50%.-50%);
+	box-sizing: border-box;
+	border-radius: 50px;
+}
+
+.avatar{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	left: calc(50% - 50px);
+	top:-15%
+}
+
+h1{
+	margin: 50;
+	padding: 0;
+	text-align: center;
+	font-size: 22px;
+	color: yellow;
+}
+
+form{
+	margin: 10;
+	color: white;
+	font-size: 16px;
+}
+
+.loginbox input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.loginbox input[type="text"], input[type="Password"]{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+
+
+.loginbox input[type="Submit"]{
+	border: none;
+	outline: none;
+	height: 40px;
+	background: rgb(255,0,0);
+	color: rgb(255,255,255);
+	font-size: 18px;
+	border-radius: 20px;
+}
+
+.loginbox input[type="Submit"]:hover{
+	cursor: pointer;
+	background: yellow;
+	color: orange;
+}
+
+.loginbox a{
+	text-decoration: none;
+	font-size: 16px;
+	color: blue;
+	line-height: 20px;S
+}
+
+.loginbox a:hover{
+	color: orange;
+}
